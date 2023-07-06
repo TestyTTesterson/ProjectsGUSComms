@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/testyt/Documents/PlatformIO/Projects/GUSConWifiLoRaMqtt/build",
+  "command": "/usr/bin/c++  -I/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino -I/Users/256dpi/Documents/Arduino/libraries/Ethernet/src -I/Users/256dpi/Documents/Arduino/libraries/WiFi101/src -I/Users/256dpi/Documents/Arduino/libraries/MKRGSM/src -I/Users/256dpi/Documents/Arduino/libraries/MKRNB/src -I/Applications/Arduino.app/Contents/Java/libraries/Bridge/src -I/Users/256dpi/Library/Arduino15/packages/esp8266/hardware/esp8266/2.3.0/libraries/ESP8266WiFi/src -I/Users/256dpi/Library/Arduino15/packages/esp32/libraries/WiFi/src -I/Users/256dpi/Library/Arduino15/packages/esp32/libraries/WiFiClientSecure/src -I/home/testyt/Documents/PlatformIO/Projects/GUSConWifiLoRaMqtt/.pio/libdeps/heltec_wifi_lora_32_V2/MQTT/src -std=c++11 -g -o CMakeFiles/arduino-mqtt.dir/src/MQTTClient.cpp.o -c /home/testyt/Documents/PlatformIO/Projects/GUSConWifiLoRaMqtt/.pio/libdeps/heltec_wifi_lora_32_V2/MQTT/src/MQTTClient.cpp",
+  "file": "/home/testyt/Documents/PlatformIO/Projects/GUSConWifiLoRaMqtt/.pio/libdeps/heltec_wifi_lora_32_V2/MQTT/src/MQTTClient.cpp"
+}
+]

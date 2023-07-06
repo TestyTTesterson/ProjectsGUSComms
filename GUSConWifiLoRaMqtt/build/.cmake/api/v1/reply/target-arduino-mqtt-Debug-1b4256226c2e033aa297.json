@@ -1,0 +1,249 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "arduino-mqtt"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 6,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-std=c++11 -g"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/256dpi/Documents/Arduino/libraries/Ethernet/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/256dpi/Documents/Arduino/libraries/WiFi101/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/256dpi/Documents/Arduino/libraries/MKRGSM/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/256dpi/Documents/Arduino/libraries/MKRNB/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Applications/Arduino.app/Contents/Java/libraries/Bridge/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/256dpi/Library/Arduino15/packages/esp8266/hardware/esp8266/2.3.0/libraries/ESP8266WiFi/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/256dpi/Library/Arduino15/packages/esp32/libraries/WiFi/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/256dpi/Library/Arduino15/packages/esp32/libraries/WiFiClientSecure/src"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/testyt/Documents/PlatformIO/Projects/GUSConWifiLoRaMqtt/.pio/libdeps/heltec_wifi_lora_32_V2/MQTT/src"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				16
+			]
+		}
+	],
+	"id" : "arduino-mqtt::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-std=c++11 -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "arduino-mqtt",
+	"nameOnDisk" : "arduino-mqtt",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				14,
+				15
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				16
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "examples/AdafruitHuzzahESP8266/AdafruitHuzzahESP8266.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "examples/AdafruitHuzzahESP8266Secure/AdafruitHuzzahESP8266Secure.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "examples/ArduinoEthernetShield/ArduinoEthernetShield.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "examples/ArduinoMKRGSM1400/ArduinoMKRGSM1400.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "examples/ArduinoMKRGSM1400Secure/ArduinoMKRGSM1400Secure.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "examples/ArduinoMKRNB1500/ArduinoMKRNB1500.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "examples/ArduinoWiFi101/ArduinoWiFi101.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "examples/ArduinoWiFi101Secure/ArduinoWiFi101Secure.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "examples/ArduinoWiFiShield/ArduinoWiFiShield.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "examples/ArduinoYun/ArduinoYun.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "examples/ArduinoYunSecure/ArduinoYunSecure.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "examples/ESP32DevelopmentBoard/ESP32DevelopmentBoard.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "examples/ESP32DevelopmentBoardSecure/ESP32DevelopmentBoardSecure.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/lwmqtt",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/MQTT.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/MQTTClient.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/MQTTClient.cpp",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "EXECUTABLE"
+}

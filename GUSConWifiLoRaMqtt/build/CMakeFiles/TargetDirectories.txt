@@ -1,0 +1,3 @@
+/home/testyt/Documents/PlatformIO/Projects/GUSConWifiLoRaMqtt/build/CMakeFiles/arduino-mqtt.dir
+/home/testyt/Documents/PlatformIO/Projects/GUSConWifiLoRaMqtt/build/CMakeFiles/edit_cache.dir
+/home/testyt/Documents/PlatformIO/Projects/GUSConWifiLoRaMqtt/build/CMakeFiles/rebuild_cache.dir

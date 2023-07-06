@@ -166,14 +166,18 @@ void loop()
     //Serial.println("Starting mqtt publish");
     lastMillis = millis();
     Serial.println("Publishing...");
-    client.publish("GUSCommands", "Commands mqtt Test from GUS lora");
+    //client.publish("GUSCommands", "Commands mqtt Test from GUS lora");
 
     Serial.println("Starting LoRa send");
-    sendMessage("Hey TestyTTesterson, it's me GUS!");
+    sendMessage("Yo TTT, c'est moi GUS!");
   }
   // Serial.println("Starting mqtt client.loop main loop");
+  //Serial.println("Main loop before onReceive");
   onReceive(LoRa.parsePacket());
+  ///Serial.println("Main loop after onReceive before client.loop");
   client.loop();
+  //Serial.println("Main loop after client.loop");
+  
   //  start lora monitor
   
   delay(10); // <- fixes some issues with WiFi stability

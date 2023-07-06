@@ -163,16 +163,17 @@ void loop()
   // publish a message roughly every 500 second.
   if (millis() - lastMillis > 500000)
   {
-    Serial.println("Starting mqtt publish");
+    //Serial.println("Starting mqtt publish");
     lastMillis = millis();
-    Serial.println("Publishing...");
-    client.publish("GUSPrompt", "Prompt Test from guscon module");
+    //Serial.println("Publishing...");
+    //client.publish("GUSPrompt", "Prompt Test from guscon module");
 
     Serial.println("Starting LoRa send");
-    sendMessage("Hey GUS, it's me TestyTTesterson!");
+    sendMessage("Hey GUS, it's me TTT!");
   }
   // Serial.println("Starting mqtt client.loop main loop");
   onReceive(LoRa.parsePacket());
+  Serial.println("Main loop after onReceive before client.loop");
   client.loop();
   //  start lora monitor
   

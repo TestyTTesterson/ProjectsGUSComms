@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "arduino-mqtt",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "arduino-mqtt::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arduino-mqtt-Debug-1b4256226c2e033aa297.json",
+					"name" : "arduino-mqtt",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/testyt/Documents/PlatformIO/Projects/GUSConWifiLoRaMqtt/build",
+		"source" : "/home/testyt/Documents/PlatformIO/Projects/GUSConWifiLoRaMqtt/.pio/libdeps/heltec_wifi_lora_32_V2/MQTT"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
