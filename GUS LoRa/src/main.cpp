@@ -48,7 +48,7 @@ void connect()
     Serial.print(".");
     delay(1000);
   }
-  client.subscribe("GUSPrompt");
+  client.subscribe("GUSCommands");
   // client.unsubscribe("/hello");
   Serial.println("\nconnected!");
 }
@@ -106,7 +106,7 @@ void onReceive(int packetSize)
   Serial.println("RSSI: " + String(LoRa.packetRssi()));
   Serial.println("Snr: " + String(LoRa.packetSnr()));
   Serial.println();
-  client.publish("GUSCommands", incoming);
+  client.publish("GUSPrompt", incoming);
   u8x8.setFont(u8x8_font_chroma48medium8_r);
   u8x8.drawString(0, 6, incoming.c_str());
 }

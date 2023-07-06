@@ -173,7 +173,7 @@ void loop()
   }
   // Serial.println("Starting mqtt client.loop main loop");
   onReceive(LoRa.parsePacket());
-  Serial.println("Main loop after onReceive before client.loop");
+  //Serial.println("Main loop after onReceive before client.loop");
   client.loop();
   //  start lora monitor
   
